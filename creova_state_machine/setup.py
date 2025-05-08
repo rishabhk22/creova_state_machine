@@ -22,6 +22,8 @@ setup(
             'navigation_node = creova_state_machine.nodes.navigation_node:main',
             'manipulation_node = creova_state_machine.nodes.manipulation_node:main',
             'perception_node = creova_state_machine.nodes.perception_node:main',
+            'task_input_node = creova_state_machine.nodes.task_input_node:main',
+
         ],
     },
 )

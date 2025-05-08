@@ -27,4 +27,11 @@ def generate_launch_description():
             name='perception_node',
             output='screen'
         ),
+        Node(
+            package='creova_state_machine',
+            executable='task_input_node',
+            name='task_input_node',
+            output='screen'
+        ),
+
     ])
